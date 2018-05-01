@@ -1,0 +1,52 @@
+a=type(42)
+b=type(42.2)
+c=type('hel')
+print (a,b,c)
+
+
+import math
+print(math)
+
+s=10
+n=2
+ratio = s / n
+decibles = 10 * math.log10(ratio)
+print(decibles)
+print(ratio)
+
+radians = 0.7
+height = math.sin(radians)
+print(height)
+
+degree = 45
+radians1 = degree / 180.0 * math.pi
+math.sin(radians1)
+print(radians1)
+
+sqrt = math.sqrt(4)
+print(sqrt)
+
+
+def new_test_func():
+    print('abcdefg')
+    print('hijklmnop')
+    print('*****')
+
+new_test_func()
+
+def repeat_newfunc():
+    print('repeat function')
+    print('---------')
+    new_test_func()
+    new_test_func()
+
+repeat_newfunc()
+
+def print_twice(x):
+    print('&&&&&&')
+    print(x)
+    print(x)
+print_twice('spam')
+print_twice(112)
+
+print_twice('-' * 3)
